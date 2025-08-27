@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe page
 
-PREVUEW
+PREVIEW
 ![preview](https://github.com/user-attachments/assets/2a165d84-8755-4146-b48b-60f3502ea132)
 
 
