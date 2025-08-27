@@ -1,0 +1,162 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: 'Outfit', sans-serif;
+  color: hsl(24, 5%, 18%);
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 10px;
+  margin: 5px;
+}
+
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+
+.recipe-image {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 30px;
+}
+
+
+h1 {
+  font-family: 'Young Serif', serif;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  
+}
+
+.title p {
+  color: hsl(30, 10%, 34%);
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+
+.preparation-time {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.preparation-time h2 {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.preparation-time ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.preparation-time li {
+  margin-bottom: 20px;
+  margin: 5px 0;
+  padding: 1px 20px;
+  color: hsl(30, 10%, 34%);
+}
+
+
+h2 {
+  font-family: 'Young Serif', serif;
+  font-size: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: hsl(14, 45%, 36%);
+}
+
+
+ul, ol {
+  padding-left: 20px;
+  margin-bottom: 30px;
+  color: hsl(30, 10%, 34%);
+}
+
+.ingredients li,
+.instructions li {
+ padding: 1px 20px;
+}
+
+
+.ingredients li,
+.instructions li,
+.preparation-time li {
+  color: hsl(30, 10%, 34%);
+}
+
+.ingredients li::marker,
+.instructions li::marker,
+.preparation-time li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+
+.ingredients list{
+  color: hsl(14, 45%, 36%);
+  
+}
+
+.bold {
+  font-weight: 700;
+  color: hsl(30, 10%, 34%)
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.nutrition th,
+.nutrition td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 12px 0;
+  text-align: left;
+}
+
+.nutrition th {
+  font-weight: 400;
+  color: hsl(30, 10%, 34%);
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 15px 0 15px 30px; 
+  text-align: left;
+  font-weight: 400;
+}
+
+
+
+.nutrition td {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
+
+.attribution {
+  text-align: center;
+  font-size: 11px;
+  margin-top: 40px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.attribution a:hover {
+  text-decoration: underline;
+}
